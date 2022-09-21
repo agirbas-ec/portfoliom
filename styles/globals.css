@@ -5,10 +5,12 @@
 @layer base {
     body{
         @apply bg-[#ffffff] text-[#1f2937] tracking-wide
+
     }
     html {
         scroll-behavior: smooth;
         font-family: 'Raleway', sans-serif;
+        
       }
     h1,h2,h3,h4,h5,h6{
         @apply font-bold
