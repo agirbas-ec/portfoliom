@@ -12,7 +12,7 @@ const property = () => {
         <Image
           className='absolute z-1'
           layout='fill'
-          objectFit='cover'
+          objectFit='fill'
           src={propertyImg}
           alt='/'
         />

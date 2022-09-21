@@ -19,7 +19,7 @@ const Projects = () => {
           <ProjectItem
             title='Galaksi Seyahat'
             backgroundImg={propertyImg}
-            projectUrl='/uzay'
+            projectUrl='/property'
             tech='React JS'
           />
           <ProjectItem
@@ -36,13 +36,7 @@ const Projects = () => {
             tech='React JS'
 
           />
-          <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
-
-          />
+         
         </div>
       </div>
     </div>
