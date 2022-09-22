@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-           <p className="font-['Open_Sans'] text-2xl font-semibold">ECE AĞIRBAŞ</p>
+           <p className="font-['Open_Sans'] text-2xl font-semibold">EA</p>
         <div>
           <ul className="hidden md:flex ">
             <Link href="/">
@@ -68,11 +68,7 @@ const Navbar = () => {
                 <AiOutlineClose />
               </div>
             </div>
-            <div className="border-b border-gray-300 my-4">
-              <p className="w-[85%] md:w-[90%] py-4">
-                Lorem ipsum dolor sit amet,
-              </p>
-            </div>
+           
           </div>
 
           <div className="py-4 flex-col justify-center">

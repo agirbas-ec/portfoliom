@@ -24,18 +24,10 @@ const Main = () => {
           {/* <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
            5 yıldır front
           </p> */}
-          <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+          <div className='flex items-center justify-items-center py-4'>
+    
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaLinkedinIn />
-              </div>
-            </a>
-            <a
-              href='https://github.com/fireclint'
+              href='https://github.com/agirbas-ec'
               target='_blank'
               rel='noreferrer'
             >
@@ -43,16 +35,8 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
-            <Link href='/#contact'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <AiOutlineMail />
-              </div>
-            </Link>
-            <Link href='/resume'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <BsFillPersonLinesFill />
-              </div>
-            </Link>
+           
+        
           </div>
         </div>
       </div>
